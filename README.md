@@ -12,4 +12,4 @@ pip install requests
 
 pip install django
 
-and to run the Django server I used pip install django.
+and to run the Django server I used python manage.py runserver.
