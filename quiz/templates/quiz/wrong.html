@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome to capital quiz{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+    <h1>No, that is wrong</h1>
+    </div>
+    <div class="row">
+        <h4>The capital of {{ capital_ref.country }} is {{ capital_ref.capital }}</h4>
+    </div>
+</div>
+
+
+
+{% endblock %}
