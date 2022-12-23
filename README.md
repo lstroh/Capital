@@ -9,6 +9,7 @@ Of course, we could use the API directly without storing the information in the 
 I used the latest Django version and requests packages.
 
 pip install requests
+
 pip install django
 
 and to run the Django server I used pip install django.
